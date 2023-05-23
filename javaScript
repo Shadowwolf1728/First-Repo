@@ -1,4 +1,4 @@
 function displayDone() {
-    console.log('done')
+    console.log('done');
 }
 displayDone
