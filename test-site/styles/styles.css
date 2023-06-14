@@ -1,6 +1,8 @@
-p {
+p,
+h1 {
     color:rgb(235, 21, 43);
     width: 500px;
+    size: 1px ;
 }
 
 li {
@@ -8,4 +10,11 @@ li {
 }
 ul { 
     border: 1px solid black;
+}
+
+a {
+    color: blueviolet;
+}
+a:hover {
+    color: red;
 }
