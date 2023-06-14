@@ -1,5 +1,11 @@
 p {
     color:rgb(235, 21, 43);
     width: 500px;
+}
+
+li {
+    color: blue;
+}
+ul { 
     border: 1px solid black;
 }
