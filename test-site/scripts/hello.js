@@ -3,7 +3,7 @@ myHeader.textContent = "Hello!"
 
 myHeader.onclick = () => {
     if(myHeader === "Hello!") {
-        myHeader.textContent = "How are you?"
+     myHeader.textContent = "How are you?"
     } else {
         myHeader.textContent = "Hello!"
     }
