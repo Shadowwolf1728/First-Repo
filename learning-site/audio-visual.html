@@ -8,14 +8,40 @@
     <meta charset="utf-8">
 </head>
 <body>
+    <!-- Example of video -->
     <h1> Below this is a simple video example</h1>
+   <video src="audio-video/rabbit320.mp4" controls >
+    <p>
+        It seems like your browser is unable to watch the video here.
+        Here is a <a href="audio-video/rabbit320.mp4"> link to the video</a> instead
+    </p>
+   </video>
+   <!-- Example of video with multiple container formats -->
     <video  controls > 
-        <source src="audio-video/rabbit320.mp4" >
-        <source src="audio-video/html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm"
+        <source src="audio-video/rabbit320.mp4" type="video/mp4">
+        <source src="audio-video/html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm" type="video/webm" >
         <p>
             It seems like your browser is unable to watch the video here.
             Here is a <a href="audio-video/rabbit320.mp4"> link to the video</a> instead
         </p>
     </video>
+    <!--Extra Video Features-->
+    <video
+  controls
+  width="400"
+  height="400"
+  autoplay
+  loop
+  muted
+  preload="auto"
+  poster="poster.png">
+  <source src="audio-video/rabbit320.mp4" type="video/mp4" />
+  <source src="audio-video/html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm" type="video/webm" />
+  <p>
+    Your browser doesn't support this video. Here is a
+    <a href="rabbit320.mp4">link to the video</a> instead.
+  </p>
+</video>
+
 </body>
 </html>
