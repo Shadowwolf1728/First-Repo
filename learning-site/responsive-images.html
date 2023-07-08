@@ -13,13 +13,19 @@
         <h2>Example of Picture in action</h2>
          
         <picture>
-            <source media="(max-width: 799px)" srcset="Images/example-responsive-img-456w">
-            <source media="min-width: 800px" srcset="Images/example-responsive-img-800w" >
-            <img src="Images/example-responsive-img-800w.png" alt="">
+            <source media="(max-width: 799px)" srcset="Images/example-responsive-img-456w.png">
+            <source media="min-width: 800px" srcset="Images/example-responsive-img-800w.png" >
+            <img src="Images/example-responsive-img-800w.png" alt="Someone looking at a beautiful sunset ">
         </picture>
         
         <h2> Example of Resolution Switching for images</h2>
 
         <h2> Example of Responsive Images </h2>
+        <img 
+        srcset="Images/responsive-image-of-me-480w.jpg 480w, Images/responsive-image-of-me-800w.jpg 800w "
+        sizes="(max-width: 600px) 480px , 800px"
+        src="Images/responsive-image-of-me-800w.jpg"
+        alt="An image of me at the Disney Dreamers Academy"
+        >
     </body>
 </html>
