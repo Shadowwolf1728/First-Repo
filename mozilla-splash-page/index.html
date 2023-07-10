@@ -122,40 +122,44 @@
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img
-          srcset=""
-          sizes=""
+          srcset="originals/firefox_logo-only_RGB-120px.png 120w, originals/firefox_logo-only_RGB-400px.png 400w"
+          sizes="(max-width: 500px) 120px, 400px"
 
-          src=""
-          alt=""
-
-          >
+          src="originals/firefox_logo-only_RGB-400px.png"
+          alt="Firefox logo link"
+          > 
         </a>
         <a href="https://www.mozilla.org/">
           <img
-          srcset=""
-          sizes=""
+          srcset="originals/mozilla-dinosaur-head-120px.png 120w, originals/mozilla-dinosaur-head-400px.png 400w"
+          sizes="(max-width:500px) 120px, 400px "
 
-          src=""
-          alt=""
+          src="originals/mozilla-dinosaur-head-400px.png"
+          alt="mozilla logo link"
           >
         </a>
         <a href="https://addons.mozilla.org/">
           <img
           srcset=" originals/firefox-addons-120px.jpg 120w, originals/firefox-addons-400px.jpg 400w "
-          sizes="(max-width: 500px) 120px, "
+          sizes="(max-width: 500px) 120px, 400px "
 
           src="originals/firefox-addons-400px.jpg"
-          alt="firefox addon logo/link"
+          alt="firefox addon logo link"
           > 
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img src="originals/mdn.svg" alt="mozilla developer logo/link">
+          <img src="originals/mdn.svg" alt="mozilla developer logo link">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="max-width:599px" srcset="originals/red-panda-widePortrait-600px.jpg">
+          <source media="min-width:600px" srcset="originals/red-panda-landscape-1200px.jpg">
+          <img src="originals/red-panda-landscape-1200px.jpg" alt="a landscape picture of a red panda ">
+        </picture>
       </div>
 
     </main>
