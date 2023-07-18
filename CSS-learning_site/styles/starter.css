@@ -11,12 +11,14 @@ li {
     list-style-type: square;
 }  
 
-li.special,
+/* li.special,
 span.special {
  color: orange;
  font-size: larger; 
  font-weight: bold;  
-}
+} 
+*/
+
 
 li em {
     color: rebeccapurple;
