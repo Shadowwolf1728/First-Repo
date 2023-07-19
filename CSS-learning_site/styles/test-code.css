@@ -1,0 +1,26 @@
+/* Create your test CSS here */
+
+/* p .box { 
+    color: red;
+}
+*/
+#Hello_Message {
+    color: chocolate;
+    background-color: bisque;
+}
+/* 
+.special {
+    color: red;
+  }
+  
+  p {
+    color: blue;
+  }
+*/
+
+.font-size {
+/* font-size: 5px; */
+   /* font-size: larger; */
+   /* font-size: 2em; */
+   font-size: 70%;
+}  
