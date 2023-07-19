@@ -8,15 +8,15 @@
     color: chocolate;
     background-color: bisque;
 }
-/* 
+ 
 .special {
     color: red;
   }
   
-  p {
+  a + p {
     color: blue;
   }
-*/
+
 
 .font-size {
 /* font-size: 5px; */
@@ -24,3 +24,21 @@
    /* font-size: 2em; */
    font-size: 70%;
 }  
+
+.width  {
+  background-color: cornflowerblue ;
+  width: 4px;
+}
+
+.color {
+  color: fuchsia;
+}
+
+.background {
+  background-color: crimson;
+}
+
+.border {
+  border: 1rem dashed sandybrown;
+}
+
