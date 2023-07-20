@@ -42,3 +42,35 @@
   border: 1rem dashed sandybrown;
 }
 
+.trans {
+  transform: rotate(180deg);
+}
+
+.backimg {
+  background-image: url("../image-audio-visual/images/cat-img.jpg");
+  color: white ;
+}
+
+.rgbcol {
+color: rgb(255, 0, 255);
+}
+
+.hslcol {
+  color: hsl(200, 50%, 42%);
+}
+
+.mediaq {
+  background-color: blueviolet;
+  padding: 15px 10px 15px 10px ;
+}
+
+@media (min-width: 400px) {
+  .mediaq {
+    background-color: red;
+  }
+}
+
+.backshort {
+  background: 10px 10px  url(../image-audio-visual/images/cat-img.jpg);
+  color: white ;
+}
