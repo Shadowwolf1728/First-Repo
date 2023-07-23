@@ -61,7 +61,11 @@ color: rgb(255, 0, 255);
 
 .mediaq {
   background-color: blueviolet;
-  padding: 15px 10px 15px 10px ;
+  padding: 
+  15px 
+  10px 
+  15px 
+  10px ;
 }
 
 @media (min-width: 400px) {
@@ -73,4 +77,14 @@ color: rgb(255, 0, 255);
 .backshort {
   background: 10px 10px  url(../image-audio-visual/images/cat-img.jpg);
   color: white ;
+}
+
+h1 + p + ul em {
+  color: burlywood;
+
+}
+
+.lingrad {
+  background-image: linear-gradient(red, blue);
+  color: white;
 }
