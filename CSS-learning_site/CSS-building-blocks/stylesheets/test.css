@@ -1,0 +1,28 @@
+
+
+
+.larglet::first-letter {
+    color: blue;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#margshft {
+margin: 1em 25px 1em 
+}
+
+a[title] {
+    padding: 10px;
+    background-color: aqua;
+    border: black 5px double;
+    margin: 25px 10px 25px 10px;
+    display: block;
+    
+    }
+
+/* For Direct child test */
+article > p {
+    color: ivory;
+    background-color: darkblue;
+    padding: 10px; 
+}
