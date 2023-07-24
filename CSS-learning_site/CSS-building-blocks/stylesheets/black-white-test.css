@@ -1,0 +1,44 @@
+html {
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    animation-name: color-shift;
+    animation-duration: 5s;
+}
+h1{
+    margin: 1em 500px 1em;
+    border: 5px red double ;
+    text-align: center;
+    animation-name: bigAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    animation: invisiText 6s 1 linear;
+  margin: 1em 300px 1em;
+}
+ 
+@keyframes bigAnimation {
+0% {font-size: .5em;  }
+50% {font-size: 1em;}
+100% { font-size: 2em;}
+
+}
+
+@keyframes color-shift {
+    0% {background-color: black;}
+    25% {background-color: aqua;}
+    50% {background-color: blue;}
+    100% {background-color: black;}
+}
+
+@keyframes invisiText {
+    from {text-indent: -9999px;} 
+    to {text-indent: 1em;}
+}
