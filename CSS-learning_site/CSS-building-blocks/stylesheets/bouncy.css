@@ -3,14 +3,24 @@ html {
 }
 
 .bounce {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 307.5px;
+    
     animation-name: bounce;
-    animation-duration: 3s;
+    animation-duration: 20s;
     animation-iteration-count: infinite ;
-
+    animation-timing-function: linear;
 }
-
+/* Values for Viewport width: x=640px y=340px */
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {transform: translate(0px 0px); } 
-    40% {transform: translate(0px, 0px) ;} 
-    60% {transform: translate(50px, 50px) } 
- } 
+    0% {transform: translate(0px,0px);} 
+    14% {transform: translate(450px, 340px);}
+    28% {transform: translate(640px, 0px);}
+    42% {transform: translate(450px,-340px);} 
+    56% {transform: translate(-450px,340px);} 
+    70% {transform: translate(0px,-340px);} 
+    84% {transform: translate(200px,340px);} 
+    100% {transform: translate(0px,0px);} 
+} 
