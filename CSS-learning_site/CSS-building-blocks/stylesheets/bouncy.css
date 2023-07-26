@@ -13,7 +13,7 @@ html {
     animation-iteration-count: infinite ;
     animation-timing-function: linear;
 }
-/* Values for Viewport width: x=640px y=340px */
+/* Values for (1/2 of the) Viewport width: x=640px y=340px */
 @keyframes bounce {
     0% {transform: translate(0px,0px);} 
     14% {transform: translate(450px, 340px);}
@@ -24,3 +24,4 @@ html {
     84% {transform: translate(200px,340px);} 
     100% {transform: translate(0px,0px);} 
 } 
+
