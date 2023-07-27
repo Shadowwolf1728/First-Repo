@@ -1,0 +1,9 @@
+header {
+    color: aqua;
+    margin: 1em 640px 1em;
+}
+.container {
+     background-color: red;
+     width: 100 ;
+     height: 100px;
+}
