@@ -1,6 +1,6 @@
 
 
-
+/* First letter test */
 .larglet::first-letter {
     color: blue;
     font-weight: 900;
@@ -11,6 +11,7 @@
 margin: 1em 25px 1em 
 }
 
+/* Attribute Target  */
 a[title] {
     padding: 10px;
     background-color: aqua;
@@ -25,5 +26,41 @@ article > p {
     color: ivory;
     background-color: darkblue;
     padding: 10px; 
+}
+
+.child-test {
+    margin: 25px 1em 25px  ;
+}
+
+/*For note class test*/
+
+.note {
+    border: 2px solid  black ;
+    margin: .5em 1em .5em ;
+}
+
+.note.safe {
+    color: lightgreen ;
+    border-color: lightgreen ;
+    background-color: darkgreen;
+    font-weight: 200;
+}
+
+.note.caution {
+    color: lightyellow ;
+    border-color:lightyellow;
+    background-color: darkgoldenrod;
+    font-weight: 600;
+}
+
+.note.danger {
+    color: red ;
+    border-color: red;
+    background-color: darkred;
+    font-weight: 900;
+}
+
+.untested {
+    margin: .5em 1em 1.5em 
 }
 
