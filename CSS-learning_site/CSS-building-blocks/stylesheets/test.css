@@ -1,6 +1,6 @@
 
 
-/* First letter test */
+/* First letter pseudo-element test */
 .larglet::first-letter {
     color: blue;
     font-weight: 900;
@@ -64,3 +64,12 @@ article > p {
     margin: .5em 1em 1.5em 
 }
 
+/* Pseudo-attribute example  */
+.pseudoattr li:first-child {
+    color: rosybrown;
+    border: 3px ridge blue;
+}
+/* Before pseudo-element in action  */
+.box::before {
+    content: "this should show up before the other content.";
+}
