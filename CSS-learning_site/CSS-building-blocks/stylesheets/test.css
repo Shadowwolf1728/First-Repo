@@ -64,12 +64,17 @@ article > p {
     margin: .5em 1em 1.5em 
 }
 
-/* Pseudo-attribute example  */
-.pseudoattr li:first-child {
+/* Pseudo-class example  */
+.pseudoclass li:first-child {
     color: rosybrown;
     border: 3px ridge blue;
 }
 /* Before pseudo-element in action  */
 .box::before {
-    content: "this should show up before the other content.";
+   
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px 20px 10px;
+    content: "Hello, this will appear before the html content";
 }
+
