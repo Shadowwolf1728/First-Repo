@@ -78,3 +78,53 @@ article > p {
     content: "Hello, this will appear before the html content";
 }
 
+.bord {
+    border: 5px dotted black;
+}
+.maybord {
+    border: inherit;
+}
+
+/* Example of revert layer inheritance  */
+.norev {
+    color:red; 
+}
+
+p[class^="no"] {
+    color: green 
+}
+
+#rev {
+    color: revert ;
+}
+
+/* Class example */
+
+.bordcontainer p {
+    margin: 1.5em 1em .5em  1em
+}
+
+.bordcontainer {
+    border: 2px solid  black ;
+}
+
+@layer firstLayer, secondLayer, thirdLayer;
+
+@layer firstLayer {
+    .layer {
+        color:red
+    }
+}
+
+@layer secondLayer {
+   .layer {
+    color: blue;
+   }
+}
+
+@layer thirdLayer {
+    .layer {
+        color: orange;
+    }
+}
+
