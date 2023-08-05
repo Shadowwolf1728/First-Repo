@@ -112,7 +112,8 @@ p[class^="no"] {
 
 @layer firstLayer {
     .layer {
-        color:red
+        color:red;
+        border: 10px dashed blue !important;
     }
 }
 
@@ -126,5 +127,10 @@ p[class^="no"] {
     .layer {
         color: orange;
     }
+}
+
+.layer{ 
+    color:black;
+    border: 5px solid black !important;
 }
 
