@@ -70,7 +70,7 @@ article > p {
     border: 3px ridge blue;
 }
 /* Before pseudo-element in action  */
-.box::before {
+.before::before {
    
     background-color: aquamarine;
     color: brown;
@@ -160,7 +160,24 @@ p[class^="no"] {
     } 
 }
 
-
-
-
-
+/* Box testing  */
+.normbox {
+        background-color: aqua;
+        width: 200px;
+        height: 50px;
+        margin: 10px 1em 10px ;
+        padding: 10px 1em 10px;
+        border: 5px solid black;
+      
+}
+.bordbox {
+        box-sizing: border-box;
+        background-color: beige;
+        color: blueviolet;
+        width: 200px;
+        height: 50px;
+        margin: 10px 1em 10px ;
+        padding: 10px 1em 10px;
+        border: 5px black dashed;
+      }
+      
