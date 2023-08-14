@@ -9,7 +9,7 @@ html {
     margin-top: 307.5px;
     
     animation-name: bounce;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-iteration-count: infinite ;
     animation-timing-function: linear;
 }

@@ -155,7 +155,7 @@ p[class^="no"] {
 }
 
 @media  (min-width:800px) and (orientation: landscape) {
-    .portrquery {
+    .landquery {
         color: forestgreen
     } 
 }
@@ -181,3 +181,9 @@ p[class^="no"] {
         border: 5px black dashed;
       }
       
+.img {
+    background-image: url(../images-audio-video/dvd-logo.png);
+    width: 512px;
+    height: 512px;
+}
+

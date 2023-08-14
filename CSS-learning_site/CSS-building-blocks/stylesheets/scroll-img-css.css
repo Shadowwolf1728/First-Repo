@@ -1,0 +1,15 @@
+p {
+    /* margin: 1000px */
+}
+
+strong {
+    font-weight: 800;
+    color: red;
+}
+
+.picka {
+    background-image: url(../images-audio-video/pickachu-width_800.jpg);
+    display: inline;
+    width: 1000;
+    height: 895;
+}
