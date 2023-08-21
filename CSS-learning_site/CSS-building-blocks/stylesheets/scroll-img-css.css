@@ -9,7 +9,8 @@ strong {
 
 .picka {
     background-image: url(../images-audio-video/pickachu-width_800.jpg);
-    display: inline;
-    width: 1000;
-    height: 895;
+    /* display: inline; */
+    width: 1000px;
+    height: 895px;
+    background-attachment: scroll;
 }
