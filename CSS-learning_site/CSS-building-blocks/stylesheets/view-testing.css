@@ -4,7 +4,7 @@ html {
 }
 
 h1 {
-font-size: 6vw;
+font-size: calc(6vw - 20px);
 padding: 1em 10px;
 }
 
