@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: #9FE2BF;
+  background-color: #ADD8E6;
 }
 
 .container_1, .container_2, .container_3 {
@@ -14,18 +14,21 @@ body {
 }
 
 .container_1 {
-  background-color: #ADD8E6;
-  color:  red ;
+  background-color: #23395d;
+  color:  #FF7F7F;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container_2 {
-  background-color: green;
-  color: orange;
+  background-color: #033500 ;
+  color: #FBBF77;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .container_3 {
-  background-color: yellow;
-  color: green;
+  background-color: #301934;
+  color: #B2F3AC;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -45,15 +48,45 @@ a {
   display:block;
 }
 
+.container_1 a:link {
+ color: #FF7F7F
+}
+
+.container_2 a:link {
+    color: #FBBF77;
+}
+
+.container_3 a:link {
+    color: #B2F3AC;
+}
+
+
 
  h1, h2, h3, p {
   text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
 }
  
 table {
 margin-left:auto;
 margin-right: auto;
+
 }
+
+li {
+    margin: 9px 0px 9px 0px;
+}
+
+.cast_table li {
+ font-style: italic;
+}
+
 </style>
 
 <title></title>
@@ -80,11 +113,11 @@ Movie Reviews
 Spiderm Man into the Spiderverse 
 </h2>
 <a href="https://www.youtube.com/watch?v=cqGjhVJWtEg ">Link for Movie</a>
-<table>
+<table class="cast_table">
 <tr>
   <td>
    <p>
-   Directors
+  <span class="bold"> Directors</span>
    </p>
     <ul>
     <li>Bob Persichetti  </li>
@@ -94,7 +127,7 @@ Spiderm Man into the Spiderverse
   </td>
   <td>
     <p>
-     Actors 
+     <span class="bold"> Actors </span>
     </p>
     <ul>
     <li>Shameik Moore </li>
@@ -117,22 +150,22 @@ Reviews
 <tr>
   <td>
   <p>
-    Pro Reviews 
+    <span class="italic">Pro Reviews </span>
     </p>
     <ul>
     
-    <li>Josh B 5 stars I love this movie, the casting is just great and all of the people fit their roles. Also the soundtrack is astounding as well as the animation. Straight 10/10</li>
-    <li>Yojin C 5 stars The combination of a great animation style and a compelling story is soo good. I mean who couldnt see himself in Miles, struggling with his new powers and the high expectations?</li>
+    <li>Josh B | 5 stars | I love this movie, the casting is just great and all of the people fit their roles. Also the soundtrack is astounding as well as the animation. Straight 10/10</li>
+    <li>Yojin C | 5 stars | The combination of a great animation style and a compelling story is soo good. I mean who couldnt see himself in Miles, struggling with his new powers and the high expectations?</li>
 
     </ul>
   </td>
   <td>
     <p>
-    Con Reviews
+        <span class="italic">Con Reviews</span>
     </p>
     <ul>
-    <li>Daniel B half star Utter garbage. The animation style is horrible and barely watchable and the plot is dull dull dull with an even duller lead. Even The Amazing Spider-Man 2 was better than this. </li>
-    <li>John B 1 star Found this very boring. Another superhero movie that relies on a multiverse and excessive amounts of irony, self-reference, making fun of the genre, etc. Boilerplate stuff at this point. Flabbergasted by how well-reviewed this is, because it's so incredibly mediocre, meandering, and mid. Also, the fact that this is a "Spiderman" movie is entirely incidental. It's really more of a send-up of superhero movies in general. Great if you're 10 years old I guess</li>
+    <li>Daniel B | 1/2 star | Utter garbage. The animation style is horrible and barely watchable and the plot is dull dull dull with an even duller lead. Even The Amazing Spider-Man 2 was better than this. </li>
+    <li>John B | 1 star Found | this very boring. Another superhero movie that relies on a multiverse and excessive amounts of irony, self-reference, making fun of the genre, etc. Boilerplate stuff at this point. Flabbergasted by how well-reviewed this is, because it's so incredibly mediocre, meandering, and mid. Also, the fact that this is a "Spiderman" movie is entirely incidental. It's really more of a send-up of superhero movies in general. Great if you're 10 years old I guess</li>
     </ul>
   </td>
 </tr>
@@ -158,14 +191,20 @@ Reviews
 Back to the Future 
 </h2>
 <a href="Image Link: https://www.youtube.com/watch?v=lc0UehYemQA">Link for Movie</a>
-<table>
+<table class="cast_table">
 <tr>
   <td>
+    <p>
+        <span class="bold">Directors  </span>
+    </p>
     <ul>
     <li>Robert Zemeckis  </li>
     </ul>
   </td>
   <td>
+    <p>
+        <span class="bold">Actors</span> 
+    </p>
     <ul>
     <li>Micheal J. Fox </li>
     <li>Christopher Lloyd </li>
@@ -187,21 +226,21 @@ Reviews
 <tr>
   <td>
   <p>
-    Pro Reviews 
+    <span class="italic">Pro Reviews</span> 
     </p>
     <ul>
     
-    <li>Thomas A 5 stars My favorite movie of all-time. An original idea, brilliantly written, directed, and acted. A sci-fi comedy with an amazing hero, anmazing characters, an amazing friendship, and a great story. This movie falls into the golden era of 80s movie making in that it was an original idea written as a movie that would not have worked better in any other medium</li>
-    <li>Anonymous 5 stars My favorite movie of all-time. An original idea, brilliantly written, directed, and acted. A sci-fi comedy with an amazing hero, anmazing characters, an amazing friendship, and a great story. This movie falls into the golden era of 80s movie making in that it was an original idea written as a movie that would not have worked better in any other medium</li>
+    <li>Thomas A | 5 stars |  My favorite movie of all-time. An original idea, brilliantly written, directed, and acted. A sci-fi comedy with an amazing hero, anmazing characters, an amazing friendship, and a great story. This movie falls into the golden era of 80s movie making in that it was an original idea written as a movie that would not have worked better in any other medium</li>
+    <li>Anonymous | 5 stars | My favorite movie of all-time. An original idea, brilliantly written, directed, and acted. A sci-fi comedy with an amazing hero, anmazing characters, an amazing friendship, and a great story. This movie falls into the golden era of 80s movie making in that it was an original idea written as a movie that would not have worked better in any other medium</li>
     </ul>
   </td>
   <td>
     <p>
-    Con Reviews
+        <span class="italic">Con Reviews</span>
     </p>
     <ul>
-    <li>Moste m 2 and half stars  its wildly overrated its only Mildly entertaining because of the predictions they made about the future, but the story is so lacking and it shows that this movie is is average at best. </li>
-    <li>Starwarsromania .5 stars  Although it remains a popular ‘80s classic, Back To The Future has quite weak acting and very boring elements.</li>
+    <li>Moste M |  2 and 1/2 stars | its wildly overrated its only Mildly entertaining because of the predictions they made about the future, but the story is so lacking and it shows that this movie is is average at best. </li>
+    <li>Starwarsromania | 1/2 stars |  Although it remains a popular ‘80s classic, Back To The Future has quite weak acting and very boring elements.</li>
     </ul>
   </td>
 </tr>
@@ -229,14 +268,20 @@ Reviews
 Jurassic Parks 
 </h2>
 <a>Link for Movie</a>
-<table>
+<table class="cast_table">
 <tr>
   <td>
+    <p>
+        <span class="bold">Directors</span> 
+    </p>
     <ul>
     <li>Steven Spielberg </li>
     </ul>
   </td>
   <td>
+    <p>
+        <span class="bold">Actors</span> 
+    </p>
     <ul>
     <li>Sam Neill </li>
     <li>Laura Dern</li>
@@ -258,21 +303,21 @@ Reviews
 <tr>
   <td>
   <p>
-    Pro Reviews 
+    <span class="italic">Pro Reviews </span>
     </p>
     <ul>
     
-    <li>Arnold V 4 and half star This is what a blockbuster movie is for me. Big, majestic and scenes that still remain a defining moment in cinema. It's a smart movie, with great characters and lovely on-screen chemistry. And the effects have aged amazingly. If you really want to nitpick, there are moments that will give you that opportunity. For me, those are minor. The movie is an experience and best viewed in a movie theatre.</li>
-    <li>Ryland C 5 stars I don't know a SINGLE PERSON who hates this movie. Jurassic Park had a premise that was so simple and made it fun, exiting, and magical! Definitely in my top 10 favorite movies ever!</li>
+    <li>Arnold V | 4 and 1/2 star |  This is what a blockbuster movie is for me. Big, majestic and scenes that still remain a defining moment in cinema. It's a smart movie, with great characters and lovely on-screen chemistry. And the effects have aged amazingly. If you really want to nitpick, there are moments that will give you that opportunity. For me, those are minor. The movie is an experience and best viewed in a movie theatre.</li>
+    <li>Ryland C | 5 stars | I don't know a SINGLE PERSON who hates this movie. Jurassic Park had a premise that was so simple and made it fun, exiting, and magical! Definitely in my top 10 favorite movies ever!</li>
     </ul>
   </td>
   <td>
     <p>
-    Con Reviews
+        <span class="italic">Con Reviews</span>
     </p>
     <ul>
-    <li>Benjamin H half star This film is a bit unrealistic since the existence of dinosaurs has not been proven. There may be some bones but these are easy enough to fake.</li>
-    <li>Jack L half star i wish the dinosaurs talked it would help the plot make sense and it was no terror of tiny town</li>
+    <li>Benjamin H | 1/2 star | This film is a bit unrealistic since the existence of dinosaurs has not been proven. There may be some bones but these are easy enough to fake.</li>
+    <li>Jack L | 1/2 star | i wish the dinosaurs talked it would help the plot make sense and it was no terror of tiny town</li>
     </ul>
   </td>
 </tr>
